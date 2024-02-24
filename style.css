@@ -6,6 +6,7 @@
 
 body {
   font-family: monospace;
+  padding-bottom: 5000px;
 }
 
 .topnav {
@@ -25,7 +26,7 @@ body {
   text-decoration: none;
   color: white;
   margin: 0 7px;
-  transition: .5s;
+  transition: 1s;
 }
 
 .topnav a:hover {
@@ -90,4 +91,20 @@ body {
 
 .change .bar3 {
   transform: translate(0, -6px) rotate(50deg);
+}
+
+#topbar {
+  background-color: #232323;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  transition: top .3s;
+}
+
+#topbar li {
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 15px;
 }
